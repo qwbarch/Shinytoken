@@ -1,0 +1,16 @@
+[
+    {
+        "modid": "shinytoken",
+        "name": "ShinyToken",
+        "description": "Use a shiny token to convert pokemon to their shiny version",
+        "version": "${version}",
+        "mcversion": "${mcversion}",
+        "url": "",
+        "updateUrl": "",
+        "authorList": ["qwbarch"],
+        "credits": "",
+        "logoFile": "",
+        "screenshots": [],
+        "dependencies": []
+    }
+]
