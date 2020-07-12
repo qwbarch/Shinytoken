@@ -12,7 +12,7 @@ import net.minecraftforge.fml.common.eventhandler.SubscribeEvent
 import qwbarch.pixelmon.ShinyToken
 import qwbarch.pixelmon.shinytoken.MessageUtils
 
-class ConvertCommand : STCommand("convert", "/st convert <partySlot>") {
+class ConvertCommand : STCommand("convert", "/st convert [partySlot]") {
 
     override fun execute(server: MinecraftServer, sender: ICommandSender, args: Array<String>) {
         if (sender is EntityPlayerMP) {

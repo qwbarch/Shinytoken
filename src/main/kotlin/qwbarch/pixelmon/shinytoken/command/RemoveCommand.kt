@@ -7,7 +7,7 @@ import net.minecraft.util.text.TextFormatting
 import qwbarch.pixelmon.ShinyToken
 import qwbarch.pixelmon.shinytoken.MessageUtils
 
-class RemoveCommand : STCommand("remove", "/st remove <playerName> <amount>", 2) {
+class RemoveCommand : STCommand("remove", "/st remove [playerName] [amount]", 2) {
 
     private fun sendRemovedTokensMessage(sender: ICommandSender, tokens: Int, target: EntityPlayerMP) {
         val message = "Removed ${TextFormatting.YELLOW}$tokens ${TextFormatting.WHITE}" +

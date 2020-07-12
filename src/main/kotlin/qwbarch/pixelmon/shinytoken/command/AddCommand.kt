@@ -7,7 +7,7 @@ import net.minecraft.util.text.TextFormatting
 import qwbarch.pixelmon.ShinyToken
 import qwbarch.pixelmon.shinytoken.MessageUtils
 
-class AddCommand : STCommand("add", "/st add <playerName> <amount>", 2) {
+class AddCommand : STCommand("add", "/st add [playerName] [amount]", 2) {
 
     private fun sendAddedTokensMessage(sender: ICommandSender, tokens: Int, target: EntityPlayerMP) {
         val message = "Added ${TextFormatting.YELLOW}$tokens " +

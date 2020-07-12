@@ -7,7 +7,7 @@ import net.minecraft.util.text.TextFormatting
 import qwbarch.pixelmon.ShinyToken
 import qwbarch.pixelmon.shinytoken.MessageUtils
 
-class ResetCommand : STCommand("reset", "/st reset <playerName>") {
+class ResetCommand : STCommand("reset", "/st reset [playerName]") {
 
     private fun sendResetTokensMessage(sender: ICommandSender, target: EntityPlayerMP) {
         val message = "${TextFormatting.YELLOW}${target.name}${TextFormatting.WHITE}'s tokens have been reset."
